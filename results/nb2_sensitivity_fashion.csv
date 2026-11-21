@@ -1,0 +1,3 @@
+dataset,random_test_at_stop,systematic_test_at_stop,gap_random_minus_systematic,systematic_next_share,P5,P6
+MNIST,0.9340999999999999,0.9007666666666667,0.033333333333333215,0.5546758462067022,supported,supported
+Fashion-MNIST,0.8370666666666667,0.8281333333333333,0.00893333333333346,0.1668644810215396,not supported,not supported
