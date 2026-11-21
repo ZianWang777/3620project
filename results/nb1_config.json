@@ -1,0 +1,30 @@
+{
+  "quick": true,
+  "cache_complete": true,
+  "demo_only": false,
+  "noise_ratio": 0.3,
+  "epochs": 200,
+  "batch_size": 128,
+  "hidden": 512,
+  "lr_candidates": [
+    0.0001,
+    0.0003,
+    0.001,
+    0.003
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "conditions": [
+    "clean",
+    "random"
+  ],
+  "selected_lr": {
+    "clean": 0.003,
+    "random": 0.001
+  },
+  "device": "cpu",
+  "torch_version": "2.15.0"
+}

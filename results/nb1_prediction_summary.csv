@@ -1,0 +1,5 @@
+prediction,verdict,evidence
+P1: train acc plateaus near 70% then rises,not supported / mixed,train acc @epoch 20=0.929; final=1.000
+"P2: corrupted images predicted true digit early, given label late",supported,"epoch 1: true=0.897, given=0.014; last: true=0.000, given=1.000"
+P3: test acc rises then falls; early stopping preserves most,supported,max test=0.934; at stop=0.934; last10=0.774
+P4: noisy-validation early stopping is close to test-optimal,supported,mean gap to test-optimal epoch=0.000

@@ -1,0 +1,3 @@
+prediction,verdict,evidence
+P5: early stopping protects less under systematic than random noise,supported,"random 0.9341 vs systematic 0.9008, gap 0.0333; highest systematic seed 0.9082 < lowest random seed 0.9308: True"
+"P6: under systematic noise, test errors concentrate on the next digit",supported,"next-digit share at stop: systematic 0.555, random 0.088, clean 0.089"
