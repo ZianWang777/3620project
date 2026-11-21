@@ -1,0 +1,4 @@
+# torchvision extracts these from the .gz files automatically; only the .gz files are committed
+data/*/raw/*-ubyte
+# challenge statement lists members' student IDs and emails; kept out of the public repo
+context/COMP3620_CW3_Challenge_Statement_Template.pdf
